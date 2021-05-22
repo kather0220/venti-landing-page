@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Page1 from './Page1/index';
+import Page2 from './Page2/index';
+import Page3 from './Page3/index';
+import Page4 from './Page4/index';
+import Page5 from './Page5/index';
+import Page6 from './Page6/index';
+import Page7 from './Page7/index';
+import Page8 from './Page8/index';
+import styled from 'styled-components';
+
+const Wrapper = styled.div`
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Page1></Page1>
+      <Page2></Page2>
+      <Page3></Page3>
+      <Page4></Page4>
+      <Page5></Page5>
+      <Page6></Page6>
+      <Page7></Page7>
+      <Page8></Page8>
     </div>
   );
 }
