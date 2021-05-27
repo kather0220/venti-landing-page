@@ -33,7 +33,7 @@ export const BottomText = styled.div`
   height: 10.15625vw;
   left: 10.4167vw;
   top: 29.1145833vw;
-  font-family: Noto Sans KR Regular;
+  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: normal;
   font-size: 2.857rem;

@@ -18,17 +18,17 @@ export const TopTextBalloon = styled.div`
   top: 12.708vw;
   text-align: center;
   vertical-align: middle;
-  font-family: Noto Sans;
+  font-family: Noto Sans 500;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 3.833rem;
   background: #ffffff;
   box-shadow: 0.2083vw 0.2083vw 1.041666vw 0.52083vw rgba(91, 79, 106, 0.07);
   border-radius: 1.3020833vw;
 
-  & colored {
-    display: inline;
-    color: #f40552;
+  & img {
+    height: 2.80833vw;
+    width: 54.9979vw;
   }
 `;
 
@@ -49,7 +49,7 @@ export const BottomTextBalloon = styled.div`
   left: 14.7917vw;
   top: 31.6667vw;
   bottom: 12.70833vw;
-  font-family: Noto Sans;
+  font-family: Noto Sans 500;
   font-style: normal;
   font-weight: 600;
   font-size: 3.833rem;
@@ -60,6 +60,11 @@ export const BottomTextBalloon = styled.div`
   & colored {
     display: inline;
     color: #f40552;
+  }
+
+  & img {
+    height: 2.80833vw;
+    width: 63.55833vw;
   }
 `;
 

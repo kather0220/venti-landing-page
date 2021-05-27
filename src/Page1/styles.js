@@ -9,12 +9,13 @@ export const Container = styled.div`
   background: #f40552;
 `;
 
-export const Title = styled.div`
+export const Title = styled.img`
   position: absolute;
-  height: 11.25vw;
+  height: 6.25375vw;
   left: 14.74vw;
-  top: 17.135vw;
-
+  top: 17.835vw;
+  width: 20.729vw;
+  /*
   font-family: Montserrat;
   font-style: normal;
   font-weight: 1000;
@@ -22,18 +23,16 @@ export const Title = styled.div`
   line-height: 9.53vw;
 
   color: #ffffff;
+  */
 `;
 
-export const Exp = styled.div`
+export const Exp = styled.img`
   position: absolute;
-  height: 3.125vw;
+  height: 2.1395833vw;
   left: 15.885vw;
   top: 28.385vw;
+  width: 28.59375vw;
 
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 3.071rem;
   line-height: 3.125vw;
 
   color: #ffffff;

@@ -9,12 +9,6 @@ import Page7 from './Page7/index';
 import Page8 from './Page8/index';
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
-  overflow: scroll;
-  display: flex;
-  flex-direction: column;
-`;
-
 function App() {
   return (
     <div>

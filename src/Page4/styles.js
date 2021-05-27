@@ -19,6 +19,7 @@ export const UpperTitle = styled.div`
   font-weight: bold;
   font-size: 8.571rem;
   line-height: 8.4895833vw;
+  letter-spacing: 0.5rem;
   color: #ffffff;
 `;
 
@@ -32,6 +33,7 @@ export const LowerTitle = styled.div`
   font-weight: bold;
   font-size: 8.571rem;
   line-height: 8.4895833vw;
+  letter-spacing: 0.5rem;
   color: #ffffff;
 `;
 
@@ -40,7 +42,7 @@ export const Exp = styled.div`
   height: 5.9375vw;
   left: 10.3645833vw;
   top: 26.9270833vw;
-  font-family: Noto Sans;
+  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: normal;
   font-size: 2.857rem;

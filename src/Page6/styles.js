@@ -14,13 +14,12 @@ export const UpperTitle = styled.div`
   height: 7.8645833vw;
   right: 11.354167vw;
   top: 7.96875vw;
-
   font-family: Noto Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 7.929rem;
   line-height: 7.8645833vw;
-
+  letter-spacing: 0.3rem;
   color: #ffffff;
 `;
 
@@ -29,13 +28,12 @@ export const LowerTitle = styled.div`
   height: 7.8645833vw;
   right: 10.729167vw;
   top: 15.8333vw;
-
   font-family: Noto Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 7.929rem;
   line-height: 7.8645833vw;
-
+  letter-spacing: 0.3rem;
   color: #ffffff;
 `;
 
