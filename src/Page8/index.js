@@ -4,6 +4,7 @@ import axios from 'axios';
 
 function Page8() {
   const [emailInput, setEmailInput] = useState('');
+  const [loading, setLoading] = useState(false);
   const EmailInputBox = useRef();
   const saveInput = (e) => {
     setEmailInput(e.target.value);
@@ -14,7 +15,9 @@ function Page8() {
   };
   const handleApply = async (e) => {
     e.preventDefault();
-    if (checkEmail(emailInput)) {
+    if (emailInput && checkEmail(emailInput)) {
+      setLoading(true);
+
       await axios.get(
         `https://script.google.com/macros/s/AKfycbw_I_ug8T-noAgbFFwvZ3nMYeKrUxWRZ3eMesqtV-rOVqb0KHVPLpzIZ4uHpTiH30cRkg/exec`,
         {
@@ -22,6 +25,7 @@ function Page8() {
         }
       );
       alert('등록되었습니다.\n감사합니다.');
+      setLoading(false);
       EmailInputBox.current.value = '';
     } else {
       alert('유효하지 않은 이메일입니다.');
@@ -40,6 +44,7 @@ function Page8() {
         id="Email"
         onChange={saveInput}
         ref={EmailInputBox}
+        disabled={loading ? true : false}
       ></S.EmailInputBox>
       <S.ApplyButton onClick={handleApply}>
         <venti>Venti</venti> 체험판 신청

@@ -40,7 +40,7 @@ export const Exp = styled.div`
   right: 10.41667vw;
   top: 29.6354167vw;
 
-  font-family: Noto Sans KR;
+  font-family: Noto Sans KR Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 2.557rem;

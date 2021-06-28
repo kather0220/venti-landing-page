@@ -36,7 +36,9 @@ export const EmailInputBox = styled.input`
   height: 3.28125vw;
   left: 31.6145833vw;
   top: 38.1770833vw;
-  background: #f5f5f5;
+  background: ${(props) =>
+    props.disabled ? '#f5f5f5 url(Spinner.gif) right no-repeat' : '#f5f5f5'};
+  background-size: 4vw;
   border: 0.0052vw solid #b0b0b0;
   box-sizing: border-box;
   border-radius: 3.125vw;

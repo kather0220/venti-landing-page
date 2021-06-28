@@ -18,7 +18,7 @@ export const TopTextBalloon = styled.div`
   top: 12.708vw;
   text-align: center;
   vertical-align: middle;
-  font-family: Noto Sans 500;
+  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: 500;
   font-size: 3.833rem;
@@ -49,7 +49,7 @@ export const BottomTextBalloon = styled.div`
   left: 14.7917vw;
   top: 31.6667vw;
   bottom: 12.70833vw;
-  font-family: Noto Sans 500;
+  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: 600;
   font-size: 3.833rem;
